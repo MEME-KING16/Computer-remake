@@ -10,5 +10,9 @@ class Taskbar {
         clock.id = "clock"
         this.taskbar.appendChild(clock)
         clock.innerHTML = "1:23 PM"
+        let start = document.createElement("div");
+        start.id = "start"
+        this.taskbar.appendChild(start)
+        start.innerHTML = "START"
     }
 }

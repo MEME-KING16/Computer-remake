@@ -46,3 +46,9 @@ body {
     right: 1%;
     bottom: 2%;
 }
+
+#start {
+    position: fixed;
+    left: 1%;
+    bottom: 1.5%;
+}
