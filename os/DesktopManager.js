@@ -4,15 +4,16 @@ class DesktopManager {
     }
 
     init() {
-        Computer.ds.login()
+        Computer.DesktopManager.login()
     }
 
     login() {
         //skip for now
-        Computer.ds.setUp()
+        Computer.DesktopManager.setUp()
     }
     setUp() {
         computer.innerHTML = ""
-        computer.style.backgroundColor = "white"
+        computer.style.backgroundColor = "lightblue"
+        Computer.TaskBar.start()
     }
 }
