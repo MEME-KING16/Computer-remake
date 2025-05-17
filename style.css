@@ -52,3 +52,7 @@ body {
     left: 1%;
     bottom: 1.5%;
 }
+
+.focused {
+    background-color: rgb(24, 90, 212);
+}

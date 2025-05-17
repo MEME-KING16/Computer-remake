@@ -4,16 +4,16 @@ class DesktopManager {
     }
 
     init() {
-        Computer.DesktopManager.login()
+        Computer.DesktopManager.login();
     }
 
     login() {
         //skip for now
-        Computer.DesktopManager.setUp()
+        Computer.DesktopManager.setUp();
     }
     setUp() {
-        computer.innerHTML = ""
-        computer.style.backgroundColor = "lightblue"
-        Computer.TaskBar.start()
+        computer.innerHTML = "";
+        computer.style.backgroundColor = "lightblue";
+        Computer.TaskBar.start();
     }
 }
